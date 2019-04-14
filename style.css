@@ -8,16 +8,28 @@ body {
     background-image: url('zdjecia/las_1280.jpg');
     background-position-x: -50px;
     background-size: 942px 568px;
+    overflow: hidden;
 }
 
-h1, a {
+div#white {
+    background-color: white;
+    opacity: 0;
+    transition: .3s;
+    height: 100vh;
+}
+
+div#white.disappear {
+    opacity: 1;
+}
+
+h1.splash, li {
     font-size: 40px;
     color :white;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-weight: bold;
 }
 
-h1 {
+h1.splash {
     position: absolute;
     left: 30px;
     top: 10px;
@@ -28,10 +40,10 @@ ul {
     left: 30px;
     bottom: 20px;
     list-style: none;
-    line-height: 45px;
+    
 }
 
-a {
-    text-decoration: none;
+li {
     cursor: pointer;
+    line-height: 60px;
 }
