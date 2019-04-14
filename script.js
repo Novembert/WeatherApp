@@ -13,16 +13,6 @@ function fadeSiteIn() {
     }, 600)
 }
 
-// function manipulateHeader() {
-//     console.log(pageYOffset)
-//     if (pageYOffset > 30) {
-//         $('header').addClass('small')
-//     }
-//     if (pageYOffset == 0) {
-//         $('header').removeClass('small')
-//     }
-// }
-
 function createLinks() {
     $('#warsawLink').click(function () {
         fadeSiteOut()
@@ -61,9 +51,17 @@ function createLinks() {
     })
 }
 
+function slideDetails() {
+    $('.fa-chevron-down').toggleClass('active')
+    $('#details').fadeToggle(500)
+}
+
+function addEvents() {
+    $('.button').click(() => slideDetails())
+}
+
 $(function () {
     fadeSiteIn()
     createLinks()
-    // document.addEventListener('scroll', function () { manipulateHeader() })
+    addEvents()
 })
-
