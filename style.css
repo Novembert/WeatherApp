@@ -17,7 +17,7 @@ body {
 div#white {
     background-color: white;
     opacity: 0;
-    transition: .3s;
+    transition: .6s;
     height: 100%;
     width: 100vw;
     position: fixed;

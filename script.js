@@ -1,19 +1,19 @@
 function fadeSiteOut() {
     $('#white').removeClass('none')
     $('#white').addClass('disappear')
-    $('#container').fadeOut(300)
+    $('#container').fadeOut(600)
 
     setTimeout(function () {
         window.location.href = "warsaw.html";
-    }, 300)
+    }, 600)
 }
 
 function fadeSiteIn() {
     $('#white').removeClass('disappear');
-    $('#container').fadeIn(300);
+    $('#container').fadeIn(600);
     setTimeout(function () {
         $('#white').addClass('none')
-    }, 300)
+    }, 600)
 }
 
 // function manipulateHeader() {
