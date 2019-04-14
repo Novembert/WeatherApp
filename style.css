@@ -26,8 +26,13 @@ div#white {
     z-index: 98;
 }
 
+div#container {
+    min-height: 100vh;
+}
+
 div#white.disappear {
     opacity: 1;
+    transition: .6s;
 }
 
 div#white.none {

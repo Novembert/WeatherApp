@@ -1,11 +1,8 @@
 function fadeSiteOut() {
     $('#white').removeClass('none')
+    $('#white').fadeIn()
     $('#white').addClass('disappear')
     $('#container').fadeOut(600)
-
-    setTimeout(function () {
-        window.location.href = "warsaw.html";
-    }, 600)
 }
 
 function fadeSiteIn() {
@@ -32,35 +29,35 @@ function createLinks() {
 
         setTimeout(function () {
             window.location.href = "warsaw.html";
-        }, 300)
+        }, 600)
     })
     $('#poznanLink').click(function () {
         fadeSiteOut()
 
         setTimeout(function () {
             window.location.href = "poznan.html";
-        }, 300)
+        }, 600)
     })
     $('#sopotLink').click(function () {
         fadeSiteOut()
 
         setTimeout(function () {
             window.location.href = "sopot.html";
-        }, 300)
+        }, 600)
     })
     $('#lodzLink').click(function () {
         fadeSiteOut()
 
         setTimeout(function () {
             window.location.href = "lodz.html";
-        }, 300)
+        }, 600)
     })
     $('#backLink').click(function () {
         fadeSiteOut()
 
         setTimeout(function () {
             window.location.href = "index.html";
-        }, 300)
+        }, 600)
     })
 }
 
