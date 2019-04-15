@@ -57,9 +57,10 @@ header#lodz {
     background-size: cover;
 }
 
-header#sopot {
-    background-image: url('zdjecia/sopot_640.jpg');
+header#opole {
+    background-image: url('zdjecia/opole_640.jpg');
     background-size: cover;
+    background-position-y: -30px;
 }
 
 header {

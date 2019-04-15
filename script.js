@@ -28,11 +28,11 @@ function createLinks() {
             window.location.href = "poznan.html";
         }, 600)
     })
-    $('#sopotLink').click(function () {
+    $('#opoleLink').click(function () {
         fadeSiteOut()
 
         setTimeout(function () {
-            window.location.href = "sopot.html";
+            window.location.href = "opole.html";
         }, 600)
     })
     $('#lodzLink').click(function () {
