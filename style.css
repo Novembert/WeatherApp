@@ -67,6 +67,7 @@ header {
     height: 190px;
     box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
     position: sticky;
+    position: -webkit-sticky;
     top:-90px;
     z-index: 90;
     transition: .3s;
@@ -172,11 +173,11 @@ main#data section p:last-of-type {
     padding-left: 10px;
 }
 
-main#data section.temperature p#hightemp {
+main#data section#hightemp p{
     color:#b93434;
 }
 
-main#data section.temperature p#lowtemp {
+main#data section#lowtemp p {
     color: #4798d6
 }
 
