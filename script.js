@@ -49,6 +49,13 @@ function createLinks() {
             window.location.href = "index.html";
         }, 600)
     })
+    $('#dataLink').click(function () {
+        fadeSiteOut()
+
+        setTimeout(function () {
+            window.location.href = "data.html";
+        }, 600)
+    })
 }
 
 function slideDetails() {

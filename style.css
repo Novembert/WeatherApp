@@ -11,6 +11,9 @@ body#splash {
     
 }
 
+body {
+    overflow-x: hidden;
+}
 
 div#white {
     background-color: white;
@@ -26,7 +29,7 @@ div#white {
 
 div#container {
     min-height: 100vh;
-    overflow: hidden
+    /* overflow: hidden */
 }
 
 div#white.disappear {
@@ -38,12 +41,29 @@ div#white.none {
     display: none;
 }
 
-header {
-    height: 190px;
+header#poznan {
     background-image: url('zdjecia/poznan_640.jpg');
     background-size: cover;
     background-position-y: -30px;
-    position: relative;
+}
+
+header#warsaw {
+    background-image: url('zdjecia/warszawa_640.jpg');
+    background-size: cover;
+}
+
+header#lodz {
+    background-image: url('zdjecia/lodz_640.jpg');
+    background-size: cover;
+}
+
+header#sopot {
+    background-image: url('zdjecia/sopot_640.jpg');
+    background-size: cover;
+}
+
+header {
+    height: 190px;
     box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
     position: sticky;
     top:-90px;
@@ -100,6 +120,19 @@ h2 img {
     right: 0
 }
 
+h3.splash {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: 400;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 1px 7px;
+    bottom: 10px;
+    right: 10px;
+}
+
 #details h2 img {
     position: absolute;
     height: 150px;
@@ -112,6 +145,39 @@ main {
     margin: 22px 20px 10px 20px
 }
 
+main#data h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+main#data section {
+    position: relative;
+    margin-bottom: 85px;
+}
+
+main#data section p:first-of-type {
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+}
+
+main#data section p:last-of-type {
+    position: absolute;
+    font-size: 30px;
+    right: 20px;
+}
+
+main#data section p#hightemp {
+    color:#b93434;
+}
+
+main#data section p#lowtemp {
+    color: #4798d6
+}
+
+main#data section.pressure p:last-of-type{
+    font-size: 26px;
+}
 
 section.button {
     position: relative;
