@@ -173,12 +173,16 @@ main#data section p:last-of-type {
     padding-left: 10px;
 }
 
-main#data section#hightemp p{
+main#data section#hightemp p:last-of-type{
     color:#b93434;
 }
 
-main#data section#lowtemp p {
+main#data section#lowtemp p:last-of-type {
     color: #4798d6
+}
+
+main#data section:last-of-type {
+    margin-bottom: 0;
 }
 
 section.button {
