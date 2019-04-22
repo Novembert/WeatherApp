@@ -225,3 +225,33 @@ h2 i.fa-chevron-down {
 h2 i.fa-chevron-down.active{
     transform: rotate(180deg);
 }
+
+@media (min-height: 569px)
+{ 
+    body#splash{
+        background-size: auto
+    }
+}
+
+@media (min-height: 640px)
+{
+    body#splash{
+        background-position-y: -40px;
+    }
+}
+
+@media (min-height: 730px)
+{
+    body#splash{
+        background-position-y: 0
+    }
+}
+
+@media (min-height: 773px)
+{
+    body#splash
+    {
+        background-image: url('zdjecia/las_1920.jpg');
+        background-position-y: -80px;
+    }
+}
