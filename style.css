@@ -262,6 +262,14 @@ h2 i.fa-chevron-down.active{
 
 @media (orientation: landscape)
 {
+    header#poznan{
+        background-position-y: -130px;
+    }
+
+    header#lodz {
+        background-position-y: -40px;
+    }
+
     li,h1 {
         line-height: 45px;
     }
@@ -273,10 +281,39 @@ h2 i.fa-chevron-down.active{
     body#splash{
         background-position-y: -190px
     }
+
+    main h2 {
+        font-size: 26px;
+    }
+
+    main p {
+        font-size: 22px;
+    }
 }
 
 @media (orientation: landscape) and (min-width: 640px)
 {
+
+    header#poznan{
+        background-image: url(zdjecia/poznan_1280.jpg);
+        background-position-y: -160px;
+    }
+
+    header#warsaw {
+        background-image: url(zdjecia/warszawa_1280.jpg);
+        background-position-y: -20px;
+    }
+
+    header#opole {
+        background-image: url(zdjecia/opole_1280.jpg);
+        background-position-y: -40px;
+    }
+
+    header#lodz {
+        background-image: url(zdjecia/lodz_1280.jpg);
+        background-position-y: -70px;
+    }
+
     body#splash {
         background-position-y: -150px
     }
@@ -284,8 +321,42 @@ h2 i.fa-chevron-down.active{
 
 @media (orientation: landscape) and (min-width: 730px)
 {
+    header#poznan{
+        background-position-y: -190px;
+    }
+
+    header#warsaw {
+        background-position-y: -30px;
+    }
+
+    header#opole {
+        background-position-y: -65px;
+    }
+
+    header#lodz {
+        background-position-y: -90px;
+    }
+
     body#splash {
         background-position-y: -100px
+    }
+}
+
+@media (orientation: landscape) and (min-width: 810px) {
+    header#poznan{
+        background-position-y: -230px;
+    }
+
+    header#warsaw {
+        background-position-y: -50px;
+    }
+
+    header#opole {
+        background-position-y: -75px;
+    }
+
+    header#lodz {
+        background-position-y: -110px;
     }
 }
 
