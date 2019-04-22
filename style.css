@@ -226,6 +226,8 @@ h2 i.fa-chevron-down.active{
     transform: rotate(180deg);
 }
 
+/* media queries for mobiles portrait*/
+
 @media (min-height: 569px)
 { 
     body#splash{
@@ -253,5 +255,43 @@ h2 i.fa-chevron-down.active{
     {
         background-image: url('zdjecia/las_1920.jpg');
         background-position-y: -80px;
+    }
+}
+
+/* media queries for mobiles landscape */
+
+@media (orientation: landscape)
+{
+    li,h1 {
+        line-height: 45px;
+    }
+
+    li {
+        font-size: 32px;
+    }
+
+    body#splash{
+        background-position-y: -190px
+    }
+}
+
+@media (orientation: landscape) and (min-width: 640px)
+{
+    body#splash {
+        background-position-y: -150px
+    }
+}
+
+@media (orientation: landscape) and (min-width: 730px)
+{
+    body#splash {
+        background-position-y: -100px
+    }
+}
+
+@media (orientation: landscape) and (min-width: 810px) and (max-height:380px)
+{
+    body#splash {
+        background-position-y: -130px
     }
 }
