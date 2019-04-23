@@ -366,3 +366,89 @@ h2 i.fa-chevron-down.active{
         background-position-y: -130px
     }
 }
+
+/* mqueries for iPad */
+
+@media (orientation: portrait) and (min-width: 768px)
+{
+    body#splash {
+        background-image: url(zdjecia/mech_1034x1280.jpg)
+    }
+
+    h1.splash {
+        font-size: 70px;
+        line-height: 115px
+    }
+
+    li {
+        font-size: 70px;
+        line-height: 100px
+    }
+
+    h3.splash {
+        font-size: 40px;
+        line-height: 50px;
+        border-width: 3px;
+        bottom: 25px;
+        right: 15px
+    }
+
+    header {
+        height: 360px;
+        top: -180px
+    }
+    header h1 {
+        font-size: 70px;
+        line-height: 90px
+    }
+
+    header img {
+        height: 170px;
+        width: auto;
+    }
+
+    main h2 {
+        font-size: 45px;
+        line-height: 55px
+    }
+
+    main h2 img {
+        height: 120px
+    }
+
+    #details h2 img {
+        height: 200px;
+        right: 25px;
+        top: 30px
+    }
+
+    main#data h2 {
+        font-size: 35px;
+    }
+
+    main p {
+        font-size: 32px;
+        line-height: 37px
+    }
+
+    main#data section p:first-of-type {
+        font-size: 30px;
+    }
+
+    main#data section p:last-of-type {
+        font-size: 37px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 1024px)
+{
+    body#splash{
+        background-image: url(zdjecia/mech-duzy.jpg)
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1020px){
+    body#splash {
+        background-image: url(zdjecia/mech_1034x1280.jpg)
+    }
+}
