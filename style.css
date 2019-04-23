@@ -319,7 +319,7 @@ h2 i.fa-chevron-down.active{
     }
 }
 
-@media (orientation: landscape) and (min-width: 730px)
+@media (orientation: landscape) and (min-width: 730px) and (max-height: 500px)
 {
     header#poznan{
         background-position-y: -190px;
@@ -342,7 +342,7 @@ h2 i.fa-chevron-down.active{
     }
 }
 
-@media (orientation: landscape) and (min-width: 810px) {
+@media (orientation: landscape) and (min-width: 810px) and (max-height: 500px) {
     header#poznan{
         background-position-y: -230px;
     }
@@ -360,7 +360,7 @@ h2 i.fa-chevron-down.active{
     }
 }
 
-@media (orientation: landscape) and (min-width: 810px) and (max-height:380px)
+@media (orientation: landscape) and (min-width: 810px) and (max-height:500px)
 {
     body#splash {
         background-position-y: -130px
@@ -368,11 +368,17 @@ h2 i.fa-chevron-down.active{
 }
 
 /* mqueries for iPad */
-
-@media (orientation: portrait) and (min-width: 768px)
+@media (min-width: 670px) and (min-height: 670px)
 {
     body#splash {
         background-image: url(zdjecia/mech_1034x1280.jpg)
+    }
+}
+
+@media (min-width: 768px) and (min-height: 768px)
+{
+    body#splash {
+        background-image: url(zdjecia/mech_1034x1280.jpg);
     }
 
     h1.splash {
@@ -440,15 +446,28 @@ h2 i.fa-chevron-down.active{
     }
 }
 
-@media (orientation: portrait) and (min-width: 1024px)
+@media(min-width: 1024px)
 {
     body#splash{
-        background-image: url(zdjecia/mech-duzy.jpg)
+        background-image: url(zdjecia/mech-ipad.jpg);
+        background-position-x: 0px
     }
 }
-
-@media (orientation: landscape) and (min-width: 1020px){
+@media (orientation: landscape) and (min-width: 1350px)
+{
     body#splash {
-        background-image: url(zdjecia/mech_1034x1280.jpg)
+        background-image: url(zdjecia/mech_ipadpro.jpg)
+    }
+
+    header#poznan {
+        background-position-y: -340px;
+    }
+
+    header#lodz {
+        background-position-y: -160px;
+    }
+
+    header#opole {
+        background-position-y: -110px
     }
 }
